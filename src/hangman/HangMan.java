@@ -81,8 +81,11 @@ public class HangMan {
         
         word = new String();
         word = apiCall();
-        System.out.println("HangMan : ");
-        System.out.println(word);
+        System.out.println("Welcome to HangMan Game");
+        System.out.println("You get 5 lives to guess the correct word");
+        System.out.println("Life will be deducted for each wrong word : ");
+        System.out.println("The length of word is : "+word.length());
+        
         boolean [] alpha = new boolean [26];
         
         int life = 4;
